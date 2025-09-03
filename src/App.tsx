@@ -10,6 +10,8 @@ import {
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
+import { Certificate } from "crypto";
+import Certificates from './components/Certificates';
 
 function App() {
     const [mode, setMode] = useState<string>('dark');
@@ -34,6 +36,7 @@ function App() {
             <Expertise/>
             <Timeline/>
             <Project/>
+            <Certificates/>
             <Contact/>
         </FadeIn>
         <Footer />

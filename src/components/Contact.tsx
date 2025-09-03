@@ -15,7 +15,7 @@ function Contact() {
   const [emailError, setEmailError] = useState<boolean>(false);
   const [messageError, setMessageError] = useState<boolean>(false);
 
-  const form = useRef();
+  // const form = useRef();
 
   const sendEmail = (e: any) => {
     e.preventDefault();
@@ -57,11 +57,11 @@ function Contact() {
         
         <div className="contact-info">
           <p><strong>Email:</strong> mohamad.e.jamous@gmail.com</p>
-          <p><strong>Phone:</strong> +961 71686459</p>
+          <p><strong>Phone:</strong> +96171686459</p>
         </div>
 
         <Box
-          ref={form}
+          // ref={form}
           component="form"
           noValidate
           autoComplete="off"
