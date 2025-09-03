@@ -5,6 +5,7 @@ import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons'
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 import { faAndroid, faApple } from "@fortawesome/free-brands-svg-icons";
+import { faMobile } from "@fortawesome/free-solid-svg-icons";
 
 
 const labelsFirst = [
@@ -24,15 +25,16 @@ const labelsFirst = [
 
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "MVVM",
+    "MVC",
+    "Clean Architecture",
+    "Dependency Injection (Hilt/Koin)",
+    "Room",
+    "Core Data",
+    "SQLite",
+    "Coroutines",
+    "Combine",
+    "Performance Profiling",
 ];
 
 const labelsThird = [
@@ -65,9 +67,13 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faMobile} size="3x"/>
+                    <h3>App Architecture & Performance</h3>
+                    <p>
+                        I design scalable app architectures using MVVM, Clean Architecture, and dependency 
+                        injection. I also focus on optimizing performance, memory usage, and responsiveness 
+                        for smooth mobile experiences.
+                    </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -75,6 +81,7 @@ function Expertise() {
                         ))}
                     </div>
                 </div>
+
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faApple} size="3x"/>
