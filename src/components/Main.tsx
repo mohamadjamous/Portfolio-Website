@@ -9,7 +9,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="https://media.licdn.com/dms/image/v2/D4E03AQERKS1xpxwT3w/profile-displayphoto-scale_400_400/B4EZjLN7qfHgAk-/0/1755756084767?e=1759363200&v=beta&t=igbV5njnV6IYK-R6_wYbEtIQhaVQO6N6FSUu1qVyZV0" alt="Avatar" />
+          <img src="https://avatars.githubusercontent.com/u/63315306?v=4" alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">
