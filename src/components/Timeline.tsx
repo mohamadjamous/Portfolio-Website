@@ -11,6 +11,7 @@ function Timeline() {
     <div id="history">
       <div className="items-container">
         <h1>Career History</h1>
+
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -20,25 +21,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Senior Android Engineer (Full-time)</h3>
-            <h4 className="vertical-timeline-element-subtitle">Neelwafurat (E-commerce Marketplace) — Beirut, Lebanon</h4>
+            <h3 className="vertical-timeline-element-title">Senior Android Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Neelwafurat — Beirut, Lebanon</h4>
             <p>
-              Worked on 7+ Android apps including Firebase, authentication, RESTful web services, and an eBook Reader app.  
-              Published 4+ Android apps to production.
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="Part-time"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Senior Android Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Upwork (Freelance)</h4>
-            <p>
-              Built and delivered high-quality Android apps using Kotlin, Jetpack Compose, and MVVM.  
-              Integrated REST APIs, Firebase, and third-party services for enhanced functionality.
+              As a Senior Android Software Engineer at Neelwafurat, I contribute to the development of multiple Android applications, leveraging Firebase, RESTful APIs, authentication systems, and Android-specific features such as Book Reader functionality. I have collaborated on and managed 7+ apps.
             </p>
           </VerticalTimelineElement>
 
@@ -48,11 +34,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Senior Mobile Engineer (Part-time)</h3>
-            <h4 className="vertical-timeline-element-subtitle">XRide — Remote (Car Rental Platform)</h4>
+            <h3 className="vertical-timeline-element-title">Senior Mobile Softwar Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">XRide — Remote</h4>
             <p>
-              Worked on a mobile & web car rental platform where travelers could search and book cars from rental companies.  
-              Maintained and developed native mobile apps for both iOS and Android.
+              Senior Mobile Software Engineer contributing to a web and mobile car rental platform, focusing on building and maintaining high-performance, seamless, and consistent Android and iOS apps.
             </p>
           </VerticalTimelineElement>
 
@@ -62,11 +47,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Android Engineer (Full-time)</h3>
-            <h4 className="vertical-timeline-element-subtitle">ihjoz (Online Ticketing Platform) — Beirut, Lebanon</h4>
+            <h3 className="vertical-timeline-element-title">Senior Android Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">ihjoz — Beirut, Lebanon</h4>
             <p>
-              Built and consulted on Android apps using Kotlin, Java, Jetpack Compose, and Coroutines.  
-              Focused on smooth user experiences and performance improvements.
+              Providing consulting, development, and architecture services for Android applications using Kotlin, Java, Jetpack Compose, and Coroutines.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

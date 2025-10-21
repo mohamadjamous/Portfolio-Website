@@ -18,12 +18,6 @@ function Project() {
         <div className="projects-grid">
             
             <div className="project">
-                <a href="https://github.com/mohamadjamous/GoogleRepoList" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/mohamadjamous/GoogleRepoList" target="_blank" rel="noreferrer"><h2>GoogleRepoList</h2></a>
-                <p>A modern Android app built with Jetpack Compose, Kotlin, and Material 3 that displays repositories from Google's GitHub organization.</p>
-            </div>
-
-            <div className="project">
                 <a href="https://github.com/mohamadjamous/NoteApp" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/mohamadjamous/NoteApp" target="_blank" rel="noreferrer"><h2>NoteApp</h2></a>
                 <p>A modern Note Taking App built with MVVM, Clean Architecture, and Jetpack Compose, using Dagger Hilt for dependency injection. Supports CRUD operations with Room Database, plus advanced filtering options.</p>
@@ -39,11 +33,7 @@ function Project() {
                 <a href="https://github.com/mohamadjamous/WeatherApp" target="_blank" rel="noreferrer"><h2>WeatherApp</h2></a>
                 <p>A simple iOS app that retrieves and displays the current weather based on the user’s location. Built using Swift and SwiftUI, with data fetched from a weather API.</p>
             </div>
-            <div className="project">
-                <a href="https://github.com/mohamadjamous/Kotlin-Social-Connect" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/mohamadjamous/Kotlin-Social-Connect" target="_blank" rel="noreferrer"><h2>KotlinSocial</h2></a>
-                <p>KotlinSocial is a cross-platform Instagram clone built using Kotlin Multiplatform (KMP). This app showcases the potential of shared codebases for Android and iOS while maintaining a sleek, modern design inspired by Instagram's functionality and aesthetics.</p>
-            </div>
+           
            
         </div>
     </div>
