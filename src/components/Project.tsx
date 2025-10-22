@@ -16,7 +16,11 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
+
             
+
+
+
             <div className="project">
                 <a href="https://github.com/mohamadjamous/NoteApp" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/mohamadjamous/NoteApp" target="_blank" rel="noreferrer"><h2>NoteApp</h2></a>
@@ -33,7 +37,11 @@ function Project() {
                 <a href="https://github.com/mohamadjamous/WeatherApp" target="_blank" rel="noreferrer"><h2>WeatherApp</h2></a>
                 <p>A simple iOS app that retrieves and displays the current weather based on the user’s location. Built using Swift and SwiftUI, with data fetched from a weather API.</p>
             </div>
+
            
+
+          
+
            
         </div>
     </div>

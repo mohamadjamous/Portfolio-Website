@@ -43,8 +43,7 @@ const labelsThird = [
     "UIKit",
     "Combine",
     "Core Data",
-    "Xcode",
-    "TestFlight"
+    "Xcode"
 ];
 
 
@@ -57,7 +56,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faAndroid} size="3x"/>
                     <h3>Android Development</h3>
-                    <p>I specialize in building modern Android applications using Kotlin, Java, and Jetpack libraries. My expertise covers the full SDLC, from UI/UX design with Compose to backend integration with REST APIs and Firebase.</p>
+                    <p>I specialize in building modern Android applications using Kotlin, Java, and Jetpack libraries. My expertise spans the entire development process, from UI/UX design with Compose to backend integration with REST APIs and Firebase.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -86,7 +85,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faApple} size="3x"/>
                     <h3>iOS Development</h3>
-                    <p>I design and develop high-quality iOS applications using Swift and SwiftUI. My work spans from elegant UI creation to integrating Core Data, Combine, and deployment via TestFlight and the App Store.</p>
+                    <p>I design and develop high-quality iOS applications using Swift and SwiftUI. My work spans from elegant UI creation to integrating Core Data, and Combine.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (

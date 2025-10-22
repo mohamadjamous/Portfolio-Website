@@ -57,7 +57,11 @@ function Contact() {
         
         <div className="contact-info">
           <p><strong>Email:</strong> mohamadjamous.engineer@gmail.com</p>
+
           {/* <p><strong>Phone:</strong> +96171686459</p> */}
+
+          <p><strong>Phone:</strong> </p>
+
         </div>
 
         <Box
