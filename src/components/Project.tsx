@@ -18,6 +18,12 @@ function Project() {
         <div className="projects-grid">
 
             
+             <div className="project">
+                <a href="https://github.com/mohamadjamous/TikTokAndroid" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/mohamadjamous/TikTokAndroid" target="_blank" rel="noreferrer"><h2>TikTokAndroid</h2></a>
+                <p>A fully functional TikTok-like Android app built with Kotlin, following Clean Architecture and MVVM principles.
+It leverages Jetpack Compose, Firebase, and modern Android development tools to deliver a smooth, real-time short-video experience.</p>
+            </div>
 
 
 
